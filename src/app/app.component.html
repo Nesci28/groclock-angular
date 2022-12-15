@@ -1,4 +1,4 @@
-<main class="bg-black h-screen w-screen">
+<main class="bg-black h-screen w-screen overflow-hidden">
   <form class="pt-1 pl-1 flex justify-row flex-wrap" [formGroup]="form">
     <input type="text" [mask]="'90:00'" [dropSpecialCharacters]="false" placeholder="Day" class="mr-1 bg-black border-gray-400 text-gray-400" formControlName="dayStartsAt">
     <input type="text" [mask]="'90:00'" [dropSpecialCharacters]="false" placeholder="Night" class="mr-1 bg-black border-gray-400 text-gray-400" formControlName="nightStartsAt">
